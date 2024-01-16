@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pic4.jpg');
+    background-size:auto ; 
+    color: #333;
+}
+
+.navbar {
+    background-color: transparent;
+    color:black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    color: black;
+    text-decoration: solid;
+    font-size: 50px;
+    width: 170px;
+    padding-left: 60px;
+   
+
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 40px;
+    padding-right: 300px;
+    
+}
+
+.nav-links li {
+    margin-right: 50px;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.title {
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+}
+
+.language-list {
+    list-style: none;
+}
+
+.language-list li {
+    margin-bottom: 20px;
+}
+
+
+.hobbies {
+    margin-top: 20px;
+}
+
+.hobbies h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hobby-list {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.hobby {
+    text-align: center;
+}
+
+.hobby i {
+    font-size: 36px;
+}
+
+.hobby h3 {
+    font-size: 16px;
+    margin-top: 10px; 
+}

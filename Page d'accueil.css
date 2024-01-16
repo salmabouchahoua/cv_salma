@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pic4.jpg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; 
+    color: #333;
+}
+
+.navbar {
+    background-color: transparent;
+    color:black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    color: black;
+    text-decoration: solid;
+    font-size: 50px;
+    width: 170px;
+    padding-left: 60px;
+   
+
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 40px;
+    padding-right: 300px;
+    
+}
+
+.nav-links li {
+    margin-right: 50px;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    max-width: 1150px; 
+    margin-top: 44px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 30px rgb(104, 103, 103);
+    
+}
+
+
+.left-section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+}
+
+.right-section {
+    flex: 1;
+    padding: 20px;
+    background-color:white;
+    
+}
+
+
+.left-section img {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+
+h1 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+h2 {
+    margin-left: 20px;
+    color: black;
+    font-weight: strong;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+h3{
+
+  color: rgb(95, 90, 90);
+  font-family:    'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+
+.right-section p {
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+
+}
+.links{
+    background-color: white;
+    padding: 0px;
+    border-radius: 5px;
+
+   
+
+}
+
+.social-icons {
+    list-style: none;
+    padding: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: -20px;
+}
+
+.social-icons li {
+    margin: 0 20px;
+}
+
+.social-icons a {
+    color:black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color:black;
+}
+
+
+
+button {
+    background-color: #3498db; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte */
+    padding: 10px 20px; /* Rembourrage intérieur du bouton */
+    font-size: 16px; /* Taille de la police */
+    border:#f9ebeb;
+    cursor: pointer; /* Curseur pointeur au survol du bouton */
+    border-radius: 80px; /* Coins arrondis du bouton */
+
+  }
+
+  button:hover {
+    background-color: #2980b9; /* Couleur de fond du bouton au survol */
+   
+  }
+ 

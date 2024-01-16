@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pic4.jpg');
+    background-size: auto; 
+
+    color: #333;
+}
+
+  .navbar {
+    background-color: transparent;
+    color:black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    color: black;
+    text-decoration: solid;
+    font-size: 50px;
+    width: 170px;
+    padding-left: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 40px;
+    padding-right: 300px;
+    
+}
+
+.nav-links li {
+    margin-right: 50px;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+.nav-links a {
+    
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: strong;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+  
+.container {
+    display: flex;
+    max-width: 1100px; 
+    height: 500px;
+    margin-top: 44px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 30px rgb(104, 103, 103);
+    overflow: hidden;
+    position: relative;
+}
+
+.informations {
+    color:white;
+    text-align: center;
+    flex: 1;
+    padding: 30px;
+    background-color: rgb(104, 103, 103);
+    box-shadow: 10px 10px 30px rgb(104, 103, 103);
+    z-index: 2;
+}
+h2.informations{
+    color:red;
+}
+
+
+.contact {
+    color: black;
+    flex: 1;
+    padding: 20px;
+    background-color:  rgb(236, 236, 236);
+    z-index: 1;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    margin-left: 150px;
+    width: 150px; 
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 800px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#message-container {
+    margin-top: 20px;
+    text-align: center;
+}

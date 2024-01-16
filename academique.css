@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('pic4.jpg');
+    background-size: auto; 
+  
+    color: #333;
+}
+
+.navbar {
+    background-color: transparent;
+    color:black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    color: black;
+    text-decoration: solid;
+    font-size: 50px;
+    width: 170px;
+    padding-left: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 40px;
+    padding-right: 300px;
+}
+
+.nav-links li {
+    margin-right: 50px;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    height: 300px;
+    margin-top: 100px;
+    
+  
+}
+
+.section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(236, 236, 236);
+    margin-left: 50px;
+    box-shadow: -10px 0 0px -10px rgba(0, 0, 0, 0.1);
+}
+
+.title h1 {
+  
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 1px;
+}
+
+.title h1 i {
+    
+    
+    margin-right: 10px;
+}
+
+.studies,
+.project {
+    list-style-type: none;
+    padding: 0;
+}
+
+.studies li{
+    margin-bottom: 2px;
+    padding-left: 56px;
+}
+.studies h1{
+    font-size: 6px;
+} 
+.studies h2{
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: justify;
+
+} 
+.studies h3 {
+    margin-left: 70px;
+    font-size: 14px;
+    text-align: justify;
+}
+.project li {
+    margin-bottom: 2px;
+    padding-left: 56px;
+}
+
+.project h3 {
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.project h2 {
+    font-size: 16px;
+    margin-top: 1px;
+    display: inline-block;
+    margin-right: 80px; 
+    padding-left: 1px;
+}
+
+
+
